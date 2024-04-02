@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.digits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px solid black;
+    width: 604px;
+    height: 300px;
+    margin: 0px auto;
+}
+
+.digits > button {
+    width: 200px;
+    align-content: stretch;
+    flex:auto;
+    font-size: xx-large;
+
+}
+
+#result, #calc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 604px;
+    height: 100px;
+    margin: 1px auto;
+}
