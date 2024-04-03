@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.digits {
+.container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -14,7 +14,7 @@
     margin: 0px auto;
 }
 
-.digits > button {
+.container > button {
     width: 200px;
     align-content: stretch;
     flex:auto;
@@ -31,4 +31,10 @@
     width: 604px;
     height: 100px;
     margin: 1px auto;
+    font-size: x-large;
+}
+
+#calc {
+    direction: rtl;
+    caret-color: transparent;
 }
