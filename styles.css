@@ -35,6 +35,6 @@
 }
 
 #calc {
-    direction: rtl;
+    text-align: end;
     caret-color: transparent;
 }
