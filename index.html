@@ -6,29 +6,30 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="result">Result screen</div>
-    <input type="text" id="calc" maxlength="10" autofocus/>
-    <div class="container">
-        <button name="9" class="digits" value="9"> 9 </button>
-        <button name="8" class="digits" value="8"> 8 </button>
-        <button name="+" value="+" id="add" class="operators"> + </button>
-        <button name="7" class="digits" value="7"> 7 </button>
-        <button name="6" class="digits" value="6"> 6 </button>
-        <button name="-" value="-" id="subtract" class="operators"> - </button>
-        <button name="5" class="digits" value="5"> 5 </button>
-        <button name="4" class="digits" value="4"> 4 </button>
-        <button name="*" value="*" id="multiply" class="operators"> *  </button>
-        <button name="3" class="digits" value="3"> 3 </button>
-        <button name="2" class="digits" value="2"> 2 </button>
-        <button name="/" value="/" id="divide" class="operators"> /  </button>
-        <button name="1" class="digits" value="1"> 1 </button>
-        <button name="0" class="digits" value="0"> 0 </button>
-        <button name="backspace" value="backspace" id="backspace"> ⌫ </button>
-        <button name="equal" value="equal" id="equal"> = </button>
-        <button name="clear" value="clear" id="clear"> clear </button>
-
+    <div id="calculatorFrame">
+        <div id="result">Neo Brutal Calculator !</div>
+        <input type="text" id="calc" maxlength="10" autocomplete="off"  oninput="this.value=this.value.slice(0,this.maxLength)" autofocus/>
+        <div class="container">
+            <button name="9" class="digits" value="9"> 9 </button>
+            <button name="8" class="digits" value="8"> 8 </button>
+            <button name="+" value="+" id="add" class="operators"> + </button>
+            <button name="7" class="digits" value="7"> 7 </button>
+            <button name="6" class="digits" value="6"> 6 </button>
+            <button name="-" value="-" id="subtract" class="operators"> - </button>
+            <button name="5" class="digits" value="5"> 5 </button>
+            <button name="4" class="digits" value="4"> 4 </button>
+            <button name="*" value="*" id="multiply" class="operators"> *  </button>
+            <button name="3" class="digits" value="3"> 3 </button>
+            <button name="2" class="digits" value="2"> 2 </button>
+            <button name="/" value="/" id="divide" class="operators"> /  </button>
+            <button name="1" class="digits" value="1"> 1 </button>
+            <button name="0" class="digits" value="0"> 0 </button>
+            <button name="backspace" value="backspace" id="backspace"> ⌫ </button>
+            <button name="dot" id="dot" value="." > . </button>
+            <button name="equal" value="equal" id="equal"> = </button>
+            <button name="clear" value="clear" id="clear"> Clear </button>
+        </div>
     </div>
-
 
 <link rel="stylesheet" href="./styles.css">
     <script src="./java.js"></script>
